@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
   <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %} Flask Basics{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css">
   </head>
   
   <body>
     {% block content %}{% endblock %}
     <p> Brought to you by Michael Moore</p>
+    {% block scripts %}{% endblock %}
   </body>
 </html>
